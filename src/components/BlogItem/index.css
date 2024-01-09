@@ -1,0 +1,85 @@
+/* Write your CSS code here */
+
+.blog-list-container {
+  display: flex;
+  flex-direction: column;
+}
+.item-link {
+  display: flex;
+  flex-direction: column;
+}
+.item-container {
+  display: flex;
+  flex-direction: row;
+  border: solid 1px #8e8e8e;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'roboto';
+  margin: 30px;
+  margin-bottom: 10px;
+}
+.item-image {
+  height: 300px;
+  width: 400px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.item-info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  margin-left: 30px;
+}
+.item-topic {
+  font-size: 22px;
+  color: #8e8e8e;
+  font-family: 'roboto';
+  border: none;
+}
+.item-title {
+  font-size: 30px;
+  color: #000000;
+  font-weight: bold;
+  margin-top: 10px;
+}
+.author-info {
+  display: flex;
+  flex-direction: row;
+}
+.avatar {
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  margin-right: 20px;
+}
+.author-name {
+  font-size: 18px;
+  color: #8e8e8e;
+}
+@media (max-width: 576px) {
+  .item-link {
+    display: flex;
+    flex-direction: row;
+  }
+  .item-image {
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+  }
+  .item-container {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .item-info {
+    display: flex;
+    flex-direction: column;
+  }
+  .item-topic {
+    font-size: 16px;
+  }
+  .item-title {
+    font-size: 25px;
+  }
+}
